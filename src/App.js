@@ -1,16 +1,14 @@
 import React from 'react';
-import Header from './header';
-import Navigation from './navigation';
-import Content from './content';
-import Footer from './footer';
+import Header from './components/header';
+import './App.css';
+// import Navigation from './components/navigation';
+// import Content from './components/content';
+// import Footer from './components/footer';
 
 function App() {
   return (
     <div>
       <Header />
-      <Navigation />
-      <Content />
-      <Footer />
     </div>
   );
 }
