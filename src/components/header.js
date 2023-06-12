@@ -2,9 +2,12 @@
 import Navigation from './navigation';
 
 const Header = () => {
+    const handleNavigationClick = (section) => {
+        console.log(`Clicked on ${section}`);
+    };
 return (
     <header>
-        <Navigation />
+        <Navigation handleNavigationClick={handleNavigationClick}/>
     </header>
     )
 };
