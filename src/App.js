@@ -6,12 +6,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 // import Navigation from './components/navigation';
 // import Content from './components/content';
-// import Footer from './components/footer';
+import Footer from './components/footer';
 
 function App() {
   return (
-    <div>
+    <div className='background'>
       <Header />
+      <Footer />
     </div>
   );
 }
