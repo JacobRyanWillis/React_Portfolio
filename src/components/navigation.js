@@ -1,8 +1,9 @@
-// import React, { useState } from 'react';
+import React, { useState } from 'react';
 import "./navigation.css";
-// import { FaReact } from "react-icons/fa";
+
 
 const Navigation = ({ activeSection, handleNavigationClick }) => {
+  
     return (
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container">
@@ -15,25 +16,25 @@ const Navigation = ({ activeSection, handleNavigationClick }) => {
               className={`nav-item ${activeSection === 'About' ? 'active' : ''}`}
               onClick={() => handleNavigationClick('About')}
             >
-              <a className="nav-link" href="#about">
+              <span className="nav-link">
                 About
-              </a>
+              </span>
             </li>
             <li
               className={`nav-item ${activeSection === 'Projects' ? 'active' : ''}`}
               onClick={() => handleNavigationClick('Projects')}
             >
-              <a className="nav-link" href="#projects">
+              <span className="nav-link">
                 Projects
-              </a>
+              </span>
             </li>
             <li
               className={`nav-item ${activeSection === 'Contact' ? 'active' : ''}`}
               onClick={() => handleNavigationClick('Contact')}
             >
-              <a className="nav-link" href="#contact">
+              <span className="nav-link">
                 Contact
-              </a>
+              </span>
             </li>
           </ul>
         </div>
