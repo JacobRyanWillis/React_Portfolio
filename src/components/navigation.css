@@ -19,4 +19,16 @@ li {
   align-items: center;
 }
 
+.nav-link {
+  cursor: pointer;
+}
 
+.nav-item.active .nav-link{
+  color: white;
+  transform: scale(1.5);
+}
+
+.nav-link:hover {
+  color: #000000;
+  transform: scale(1.05);
+}

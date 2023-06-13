@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import About from './about';
 import Projects from './projects';
 import Contact from './contact';
@@ -11,6 +11,11 @@ const Content = () => {
     const handleNavigationClick = (title) => {
       setActiveSection(title);
     };
+  
+    useEffect(() => {
+      setActiveSection(activeSection);
+
+    }, [activeSection]);
   
     return (
       <section id="content">
