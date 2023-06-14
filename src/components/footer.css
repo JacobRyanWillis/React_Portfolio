@@ -11,6 +11,10 @@
     transition: transform 0.3s ease;
   }
 
+  .footer-icon:hover {
+    transform: scale(1.2);
+  }
+
   .github-icon {
     color: white;
   }
@@ -30,12 +34,12 @@
   
   .linkedin-icon:hover {
     transform: scale(1.2); /* Increase the size of the icon on hover */
-    color: grey; /* Customize the color for LinkedIn icon on hover */
+    color: white; /* Customize the color for LinkedIn icon on hover */
   }
   
   .twitter-icon:hover {
     transform: scale(1.2); /* Increase the size of the icon on hover */
-    color: grey; /* Customize the color for Twitter icon on hover */
+    color: white; /* Customize the color for Twitter icon on hover */
   }
   
  
