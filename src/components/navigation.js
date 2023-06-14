@@ -33,9 +33,21 @@ const Navigation = ({ activeSection, handleNavigationClick }) => {
               className={`nav-item ${activeSection === 'Contact' ? 'active' : ''}`}
               onClick={() => handleNavigationClick('Contact')}
             >
+              
               <span className="nav-link">
                 Contact
               </span>
+      
+            </li>
+            <li
+              className={`nav-item ${activeSection === 'Resume' ? 'active' : ''}`}
+              onClick={() => handleNavigationClick('Resume')}
+            >
+              
+              <span className="nav-link">
+                Resume
+              </span>
+              
             </li>
           </ul>
         </div>

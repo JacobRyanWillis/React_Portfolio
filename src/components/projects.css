@@ -1,0 +1,21 @@
+.project-images {
+    max-height: 25rem;
+    max-width: 25rem;
+    transition: filter 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+.project-content {
+    height: 75vh;
+}
+
+.coming-soon {
+    height: 16rem;
+    width: 25rem;
+    transition: filter 0.3s, transform 0.3s, box-shadow 0.3s
+}
+
+.project-images:hover, .coming-soon:hover {
+    filter: brightness(125%);
+    transform: scale(1.05);
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.2);
+}

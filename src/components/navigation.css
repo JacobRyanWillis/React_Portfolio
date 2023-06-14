@@ -29,6 +29,6 @@ li {
 }
 
 .nav-link:hover {
-  color: #000000;
+  color: white;
   transform: scale(1.05);
 }
