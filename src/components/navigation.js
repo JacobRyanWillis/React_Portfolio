@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import "./navigation.css";
+import "animate.css";
 
 
 const Navigation = ({ activeSection, handleNavigationClick }) => {
   
     return (
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark animate__animated animate__bounceInDown animate__delay-1s">
         <div className="container">
           <div className="navbar-brand">
             <h2 className="name">Jacob Willis</h2>
