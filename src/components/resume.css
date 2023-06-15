@@ -1,0 +1,19 @@
+.resume-div {
+    height: 65vh;
+    padding: 2rem;
+    margin: 1rem;
+}
+
+.resume-iframe {
+    height: 30rem;
+    width: 100%;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-underline-offset: 12px;
+    text-underline-position: auto;
+}
+
+
