@@ -54,10 +54,11 @@ function Form() {
   };
 
   return (
-    <div>
-      <p>Hello {userName}</p>
-      <form className="form">
-        <input
+    <div className='col-sm d-flex justify-content-center align-items-center flex-column bg-dark'>
+      <p className='text-primary m-2'>Want to contact me directly?<br></br> 
+      Leave me a message!</p>
+      <form className="form d-flex justify-content-center align-items-center flex-column p-2">
+        <input className='m-2'
           value={email}
           name="email"
           onChange={handleInputChange}
@@ -69,7 +70,7 @@ function Form() {
             }
           }}
         />
-        <input
+        <input className='m-2'
           value={userName}
           name="userName"
           onChange={handleInputChange}
@@ -81,12 +82,13 @@ function Form() {
             }
           }}
         />
-        <textarea
+        <textarea className='m-2 message-box'
           value={message}
           name="message"
           onChange={handleInputChange}
           type="text"
           placeholder="message"
+          rows={4}
           onBlur={() => {
             if (!message) {
                 setErrorMessage('Please write out a message.') 

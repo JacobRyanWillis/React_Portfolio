@@ -1,3 +1,11 @@
 .contact-card {
-    height: 50vh;
+    height: 60vh;
+}
+
+.message-box {
+    width: 20rem;
+}
+
+.form {
+    border-radius: 2rem;
 }
