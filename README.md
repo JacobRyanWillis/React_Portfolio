@@ -23,7 +23,7 @@ npm i
 ## Usage
 
 Website Screenshot <br>
-![Website Screenshot](./public/images/website-screenshot.png)
+![Website Screenshot](./src/images/website-screenshot.png)
 
 Deployed Website <br>
 
