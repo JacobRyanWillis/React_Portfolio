@@ -1,5 +1,6 @@
 import 'animate.css'
 import './about.css'
+import picture from '../images/profile-pic.jpg'
 
 const About = () => {
   return (
@@ -10,7 +11,7 @@ const About = () => {
           With a strong foundation in programming languages and frameworks, I'm continuously expanding my skills in the ever-evolving tech landscape. From front-end design to back-end development, 
           I'm eager to tackle new challenges and make meaningful contributions to innovative projects.
         </p>
-        <img className='col-sm-6 profile-pic' alt="Its Me!" src="/images/profile-pic.jpg"></img>
+        <img className='col-sm-6 profile-pic' alt="Its Me!" src={picture}></img>
       </div>
     </div>
   );
