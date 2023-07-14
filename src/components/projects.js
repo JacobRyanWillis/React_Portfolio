@@ -3,6 +3,7 @@ import coming_soon from '../images/comingsoon.png'
 import project_1 from '../images/first-project.png'
 import project_2 from '../images/second-project.png'
 import project_3 from '../images/project-3.png'
+
 const Projects = () => {
   return (
     <div className="container p-2 d-flex align-items-center justify-content-center">
